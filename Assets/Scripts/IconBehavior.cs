@@ -4,6 +4,7 @@ using UnityEngine;
 public class IconBehavior : MonoBehaviour
 {
     public GameObject[] icons;
+    public Texture2D[] sprites;
     private float time;
     int icon;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
